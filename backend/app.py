@@ -36,7 +36,7 @@ def home():
     </head>
     <body>
         <div class="container">
-            <h1>👋 Bienvenue, option DevOps !</h1>
+            <h1>👋 Hi Team Bienvenue, option DevOps !</h1>
             <p>Cette page est servie par une application Flask dans un conteneur Docker.</p>
         </div>
     </body>
