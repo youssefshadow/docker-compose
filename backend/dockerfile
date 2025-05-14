@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copier les fichiers nécessaires
 COPY ./app.py /app
-
+COPY ./templates /app/templates  
 # Installer Flask
 RUN pip install flask
 
