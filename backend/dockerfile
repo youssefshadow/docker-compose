@@ -1,0 +1,17 @@
+# Utiliser l'image de base Python
+FROM python:3.9-slim
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier les fichiers nécessaires
+COPY ./app.py /app
+
+# Installer Flask
+RUN pip install flask
+
+# Exposer le port 5000 pour Flask
+EXPOSE 5000
+
+# Lancer Flask
+CMD ["python", "app.py"]
